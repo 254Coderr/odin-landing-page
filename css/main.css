@@ -26,9 +26,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content:space-between;
+    gap: 10px;
     min-height: 100vh;
     margin: 0;
-    
+    padding: 0;
+    background-color: #1F2927;;
     
 }
 nav ul {
@@ -44,17 +46,21 @@ nav ul li a {
 }
 .start {
     display: flex;
-    justify-content: space-between;
+    flex-grow: 1;
+    justify-content: space-around;
     align-content: center;
-    padding: 30px;
-    
+    background-color: #1F2927;
+    color: white;
+    padding: 10px;
 
 }
 .startchild .button-a  button{
 border: none;
 background-color: #007bff;
 color: white; 
-border-radius: 2px;
+border-radius: 8px;
+padding: 10px 20px;
+cursor: pointer;
 }
 .image {
     width: 300px;
@@ -70,13 +76,17 @@ border-radius: 2px;
   }  
 .information {
     display: flex;
+    flex-grow: 1;
     flex-direction: column;
-    
+    padding: 90px 90px;
+    justify-items: center;
+    background-color: white;
 }
 .information-boxes {
     display: flex;
     justify-content: center;
     gap: 15px;
+    
     
 }
 .information-box {
@@ -86,35 +96,64 @@ border-radius: 2px;
     justify-content: center;
     background-color: lightgray;
     border: 2px solid #3882f6;
+    border-radius: 8px;
+    
 }
 .a-quote {
+    display: flex;
+    flex-grow: 1;
     font-style: italic;
+    font-size: 36px;
     margin: 20px 10px;
     background-color: #e5e7eb;
     display: flex;
+    padding: 100px;
+    color: #1f2937
     
+}
+.a-quote cite {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 1em;
+    font-style: normal;
+    color: #333;
 }
 .call {
     display: flex;
+    flex-grow: 1;
     background-color: white;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
 }
 .the-call {
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
     background-color: #007bff;
+    align-items: left;
     color: white;
-    display: flex;    
+    border-radius: 2px;
+    gap: 10px;
+    padding: 50px;
+}
 
+.text-area {
+    display: flex;
+    flex-direction: column;
 }
 .the-call .button-b button {
     border: 2px solid whitesmoke;
     background-color: #3882f6;
     color: whitesmoke;
-    border-radius: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 10px 20px;
 }   
- 
+
 
 footer {
     background-color: #1F2927;
     color: white;
+    padding: 1x;
 }
