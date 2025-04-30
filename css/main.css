@@ -49,9 +49,10 @@ nav ul li a {
     flex-grow: 1;
     justify-content: space-around;
     align-content: center;
+    align-items: center;
     background-color: #1F2927;
     color: white;
-    padding: 10px;
+    padding: 20px;
 
 }
 .startchild .button-a  button{
@@ -158,5 +159,6 @@ cursor: pointer;
 footer {
     background-color: #1F2927;
     color: white;
-    padding: 1x;
-}
+    text-align: center;
+} 
+ 
