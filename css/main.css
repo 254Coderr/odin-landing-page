@@ -86,11 +86,14 @@ cursor: pointer;
     justify-items: center;
     background-color: white;
 }
+.info-text {
+    text-align: center;
+
+}
 .information-boxes {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    
+    gap: 15px; 
     
 }
 .information-box {
@@ -103,8 +106,14 @@ cursor: pointer;
     border-radius: 8px;
     
 }
-.a-quote {
+.quote-container {
     display: flex;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+.a-quote {
+    
     flex-grow: 1;
     font-style: italic;
     font-size: 36px;
